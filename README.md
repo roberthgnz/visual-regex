@@ -1,6 +1,7 @@
 # 👁️ Visual Regex
 
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/eliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items/eliutg.visual-regex) [![Installs](https://vsmarketplacebadge.apphb.com/installs/eliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items/eliutg.visual-regex) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/eliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items/eliutg.visual-regex)
+[![Badge for version for Visual Studio Code extension reliutg.visual-regex](https://vsmarketplacebadge.apphb.com/version/reliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)
+
 
 Get detailed and visual information about the pattern you make.
 

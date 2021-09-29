@@ -43,26 +43,14 @@
     "compile": "esbuild ./src/extension.js --bundle --outdir=out --external:vscode --format=cjs --platform=node",
     "watch": "npm run dev -- --sourcemap --watch",
     "dev": "npm run compile -- --sourcemap",
-    "lint": "eslint --fix src/**.js",
     "format": "prettier --write \"src/**.js\"",
-    "prepublishOnly": "npm run lint",
-    "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "esbuild": "^0.13.3",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
     "glob": "^7.1.7",
     "prettier": "^2.4.1",
     "vscode": "^1.1.37"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0"
   }
 }

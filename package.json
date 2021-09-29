@@ -56,8 +56,5 @@
     "glob": "^7.1.7",
     "prettier": "^2.4.1",
     "vscode": "^1.1.37"
-  },
-  "dependencies": {
-    "visual-regex": "^1.0.7"
   }
 }

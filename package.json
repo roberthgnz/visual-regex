@@ -1,0 +1,63 @@
+{
+  "name": "visual-regex",
+  "displayName": "Visual Regex",
+  "description": "Get detailed and visual information about the pattern you make.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "license": "MIT",
+  "publisher": "reliutg",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:visual-regex.visualRegex"
+  ],
+  "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliutgon/visual-regex.git"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "visual-regex.visualRegex",
+        "title": "Visual Regex"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "visual-regex.visualRegex",
+          "group": "1_modification"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile -- --minify",
+    "compile": "esbuild ./src/extension.js --bundle --outdir=out --external:vscode --format=cjs --platform=node",
+    "watch": "npm run dev -- --sourcemap --watch",
+    "dev": "npm run compile -- --sourcemap",
+    "lint": "eslint --fix src/**.js",
+    "format": "prettier --write \"src/**.js\"",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.3",
+    "eslint": "^7.32.0",
+    "eslint/eslint-plugin": "^4.31.1",
+    "eslint/parser": "^4.31.1",
+    "glob": "^7.1.7",
+    "prettier": "^2.4.1",
+    "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "visual-regex": "^1.0.7"
+  }
+}

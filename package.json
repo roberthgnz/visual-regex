@@ -53,10 +53,16 @@
   "devDependencies": {
     "esbuild": "^0.13.3",
     "eslint": "^7.32.0",
-    "eslint/eslint-plugin": "^4.31.1",
-    "eslint/parser": "^4.31.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "glob": "^7.1.7",
     "prettier": "^2.4.1",
     "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
   }
 }

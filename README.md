@@ -7,6 +7,10 @@ Get detailed and visual information about the pattern you make.
 
 ![Demo](https://user-images.githubusercontent.com/63687573/135662437-dc43781b-60c9-4e28-bb8f-f0f6ba515516.gif)
 
+## Usages
+- Press F1 and then select/type **Visual Regex**
+- Select the pattern then right click and select **Visual Regex**
+
 
 ## Why?
 I know there are many extensions or websites that have this functionality, but the graphics can be unintuitive. Use this alternative if you want to see easy to understand information about your pattern.

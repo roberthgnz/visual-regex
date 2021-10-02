@@ -112,7 +112,7 @@ async function activate(context) {
 
       if (!pattern) return;
 
-      VisualPanel.createOrShow(context.extensionUri, pattern);
+      VisualPanel.createOrShow(context.extensionUri, new RegExp(pattern));
     })
   );
 

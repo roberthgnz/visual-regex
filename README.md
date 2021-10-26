@@ -1,3 +1,8 @@
+[![Marketplace](https://img.shields.io/visual-studio-marketplace/i/reliutg.bulma-css-class-completion)](https://marketplace.visualstudio.com/items?itemName=reliutg.bulma-css-class-completion)
+[![Github](https://img.shields.io/github/stars/eliutgon/bulma-css-class-completion?style=social)](https://github.com/eliutgon/bulma-css-class-completion)
+[![Twitter](https://img.shields.io/twitter/follow/eliutgon?style=social)](https://twitter.com/eliut505)
+[![buymeacoffee](https://img.shields.io/badge/buymeacoffee-%24-yellow)](https://www.buymeacoffee.com/eliut505)
+
 # 👁️ Visual Regex
 
 [![Badge for version for Visual Studio Code extension reliutg.visual-regex](https://vsmarketplacebadge.apphb.com/version/reliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)

@@ -3,7 +3,7 @@
   "displayName": "Visual Regex",
   "description": "Visual Regex - Get detailed and visual information about the pattern you make.",
   "icon": "icon.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -16,6 +16,7 @@
     "onCommand:visual-regex.visualRegex"
   ],
   "main": "./out/extension.js",
+  "browser": "./out/extension.js",
   "homepage": "https://github.com/eliutgon/visual-regex/blob/main/README.md",
   "repository": {
     "type": "git",
@@ -48,9 +49,9 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "esbuild": "^0.13.3",
-    "glob": "^7.1.7",
-    "prettier": "^2.4.1",
-    "vscode": "^1.1.37"
+    "esbuild": "0.13.9",
+    "glob": "7.2.0",
+    "prettier": "2.4.1",
+    "vscode": "1.1.37"
   }
 }

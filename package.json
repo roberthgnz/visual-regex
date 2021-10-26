@@ -3,7 +3,7 @@
   "displayName": "Visual Regex",
   "description": "Visual Regex - Get detailed and visual information about the pattern you make.",
   "icon": "icon.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.60.0"
   },

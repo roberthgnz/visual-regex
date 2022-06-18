@@ -1,6 +1,6 @@
 [![Marketplace](https://img.shields.io/visual-studio-marketplace/i/reliutg.visual-regex)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)
 [![Github](https://img.shields.io/github/stars/eliutdev/visual-regex?style=social)](https://github.com/eliutdev/visual-regex)
-[![Twitter](https://img.shields.io/twitter/follow/eliutgon?style=social)](https://twitter.com/eliutdev)
+[![Twitter](https://img.shields.io/twitter/follow/eliutdev?style=social)](https://twitter.com/eliutdev)
 [![buymeacoffee](https://img.shields.io/badge/buymeacoffee-%24-yellow)](https://www.buymeacoffee.com/eliut505)
 
 # 👁️ Visual Regex

@@ -49,9 +49,9 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "esbuild": "0.13.9",
-    "glob": "7.2.0",
-    "prettier": "2.4.1",
-    "vscode": "1.1.37"
+    "esbuild": "0.14.45",
+    "glob": "8.0.3",
+    "prettier": "2.7.1",
+    "vscode": "^0.9.9"
   }
 }

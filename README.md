@@ -5,6 +5,8 @@
 
 # 👁️ Visual Regex
 
+> For now, only support JavaScript's Regular-Expression syntax.
+
 [![Badge for version for Visual Studio Code extension reliutg.visual-regex](https://vsmarketplacebadge.apphb.com/version/reliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)
 
 

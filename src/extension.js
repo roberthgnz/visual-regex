@@ -88,8 +88,8 @@ class VisualPanel {
                 <p><code>${VisualPanel.pattern}</code></p>
                 <script type="module">
                   import visualRegex from 'https://cdn.skypack.dev/visual-regex';
-                  const canvas = visualRegex(${VisualPanel.pattern});
-                  canvas.style.transform = 'scale(0.5)';
+                  const visual = visualRegex(${VisualPanel.pattern});
+                  const canvas = visual.visualCanvas();
                   canvas.style.transformOrigin = 'left top';
                   document.body.appendChild(canvas);
                 </script>

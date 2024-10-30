@@ -1,14 +1,11 @@
 [![Marketplace](https://img.shields.io/visual-studio-marketplace/i/reliutg.visual-regex)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)
-[![Github](https://img.shields.io/github/stars/eliutdev/visual-regex?style=social)](https://github.com/eliutdev/visual-regex)
-[![Twitter](https://img.shields.io/twitter/follow/eliutdev?style=social)](https://twitter.com/eliutdev)
+[![Github](https://img.shields.io/github/stars/roberthgnz/visual-regex?style=social)](https://github.com/roberthgnz/visual-regex)
+[![Twitter](https://img.shields.io/twitter/follow/roberthgnz?style=social)](https://twitter.com/roberthgnz)
 [![buymeacoffee](https://img.shields.io/badge/buymeacoffee-%24-yellow)](https://www.buymeacoffee.com/eliut505)
 
 # 👁️ Visual Regex
 
 > For now, only support JavaScript's Regular-Expression syntax.
-
-[![Badge for version for Visual Studio Code extension reliutg.visual-regex](https://vsmarketplacebadge.apphb.com/version/reliutg.visual-regex.svg)](https://marketplace.visualstudio.com/items?itemName=reliutg.visual-regex)
-
 
 Get detailed and visual information about the pattern you make.
 

@@ -1,6 +1,4 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
-const vscode = require("vscode");
+import * as vscode from 'vscode';
 
 class VisualPanel {
   static currentPanel = undefined;
@@ -99,7 +97,7 @@ class VisualPanel {
   }
 }
 
-async function activate(context) {
+export async function activate(context) {
   context.subscriptions.push(
     vscode.commands.registerCommand("visual-regex.visualRegex", () => {
       const editor = vscode.window.activeTextEditor;
@@ -125,9 +123,4 @@ async function activate(context) {
   }
 }
 
-async function deactivate() {}
-
-module.exports = {
-  activate,
-  deactivate,
-};
+export async function deactivate() {}

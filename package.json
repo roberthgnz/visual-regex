@@ -3,7 +3,7 @@
   "displayName": "Visual Regex",
   "description": "Visual Regex - Get detailed and visual information about the pattern you make.",
   "icon": "icon.png",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.83.1"
   },
@@ -15,7 +15,6 @@
   "activationEvents": [
     "onCommand:visual-regex.visualRegex"
   ],
-  "type": "module",
   "main": "./out/extension.js",
   "browser": "./out/extension.js",
   "homepage": "https://github.com/eliutdev/visual-regex/blob/main/README.md",
@@ -42,7 +41,7 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile -- --minify",
-    "compile": "esbuild ./src/extension.js --bundle --outdir=out --external:vscode --format=esm --platform=node",
+    "compile": "esbuild ./src/extension.js --bundle --outdir=out --external:vscode --format=cjs --platform=node",
     "watch": "npm run dev -- --sourcemap --watch",
     "dev": "npm run compile -- --sourcemap",
     "format": "prettier --write \"src/**.js\"",
